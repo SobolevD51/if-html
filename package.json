@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/SobolevD51/if-html/issues"
   },
-  "homepage": "https://github.com/SobolevD51/if-html#readme"
+  "homepage": "https://github.com/SobolevD51/if-html#readme",
+  "devDependencies": {
+    "prettier": "2.5.1"
+  }
 }
