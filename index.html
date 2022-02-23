@@ -15,7 +15,7 @@
     <h1>Знакомство с Web.</h1>
     <img
       src="https://developers.google.com/web/fundamentals/design-and-ux/responsive/img/html5.png"
-      alt="html5"
+      alt="html5 logo"
     />
     <ol>
       <li>
@@ -75,7 +75,7 @@
           <td>&lt;td&gt;</td>
         </tr>
         <tr>
-          <td colspan="2"> Rarely used</td>
+          <td colspan="2">Rarely used</td>
         </tr>
         <tr>
           <td>&lt;caption&gt;</td>
@@ -95,6 +95,87 @@
         </tr>
       </tbody>
     </table>
+    <h2>My first form</h2>
+    <form action="/" method="get">
+      <fieldset>
+        <legend>My first form</legend>
+        <p>
+          <label for="name">Name</label><br />
+          <input id="name" type="text" name="name" placeholder="Name" required />
+        </p>
+        <p>
+          <label for="email">Email</label><br />
+          <input
+            id="email"
+            type="email"
+            name="email"
+            placeholder="YourEmail@mail.com"
+            required
+          />
+        </p>
+        <p>
+          <label for="pass">Password</label><br />
+          <input
+            id="pass"
+            type="password"
+            name="password"
+            placeholder="Your password"
+            required
+          />
+        </p>
+        <p>
+          <label for="programmingLevel">Your programming level</label><br />
+          <input
+            id="programmingLevel"
+            type="range"
+            name="Programming level"
+            min="0"
+            max="10"
+          />
+        </p>
+        <p>
+          <label>What does HTML stand for?</label><br />
+          <input id="q-1" type="checkbox" name="q-HTML" value="1" />
+          <label for="q-1">Hyperlinks and Text Markup Language</label><br />
+          <input id="q-2" type="checkbox" name="q-HTML" value="2" />
+          <label for="q-2">Home Tool Markup Language</label><br />
+          <input id="q-3" type="checkbox" name="q-HTML" value="3" />
+          <label for="q-3">Hyper Text Markup Language</label><br />
+        </p>
+        <p>
+          <label>What does HTTP stand for?</label><br />
+          <input id="q-4" type="radio" name="q-HTTP" value="1" />
+          <label for="q-4">Hyper Text Translate Protocol</label><br />
+          <input id="q-5" type="radio" name="q-HTTP" value="2" />
+          <label for="q-5">Hyper Text Transmission Protocol</label><br />
+          <input id="q-6" type="radio" name="q-HTTP" value="3" />
+          <label for="q-6">Hyper Text Transfer Protocol</label><br />
+        </p>
+        <p>
+          <label for="comment">Comment</label><br />
+          <textarea
+              name="comment"
+              id="comment"
+              placeholder="Your comment"
+              cols="30"
+              rows="10"
+              maxlength="500"
+          ></textarea>
+        </p>
+        <p>
+          <label for="HTML">What does HTML for?</label><br />
+          <select name="HTMLfor" id="HTML">
+            <option disabled selected>Your answer</option>
+            <option value="1">Hyperlinks and Text Markup Language</option>
+            <option value="2">Home Tool Markup Language</option>
+            <option value="3">Hyper Text Markup Language</option>
+          </select>
+        </p>
+      </fieldset>
+      <p>
+        <button>Send</button>
+      </p>
+    </form>
     <hr />
   </body>
 </html>
