@@ -15,9 +15,13 @@
   top: 120px;
 }
 .stroke {
-  position: absolute;
-  left: 670px;
+  position: static;
+  left: 630px;
   top: 187px;
+  display: none;
+}
+.h1:hover .stroke{
+  display: block;
 }
 .support {
   position: absolute;
