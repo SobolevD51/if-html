@@ -15,13 +15,12 @@
   top: 120px;
 }
 .stroke {
-  position: static;
-  left: 630px;
-  top: 187px;
+  position: relative;
+  left: 70px;
   display: none;
 }
 .h1:hover .stroke{
-  display: block;
+  display: flex;
 }
 .support {
   position: absolute;
@@ -32,7 +31,7 @@
 }
 .vector3 {
   position: absolute;
-  left: 214px;
+  left: 190px;
   top: 275px;
 }
 .communication {
@@ -44,7 +43,7 @@
 }
 .vector2 {
   position: absolute;
-  left: 521px;
+  left: 450px;
   top: 279px;
 }
 .book {
@@ -56,7 +55,7 @@
 }
 .vector {
   position: absolute;
-  left: 826px;
+  left: 785px;
   top: 287px;
 }
 .reviews {
@@ -68,6 +67,6 @@
 }
 .vector1 {
   position: absolute;
-  left: 1142px;
+  left: 1095px;
   top: 275px;
 }
