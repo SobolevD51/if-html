@@ -6,10 +6,14 @@
   font-family: Roboto, sans-serif;
   color: #383838;
 }
+a {
+  color: #ffff;
+  text-decoration: none;
+}
 .container {
   max-width: 1440px;
   margin: 0 auto;
-  height: 569px;
+  height: 700px;
   padding: 200px 16px 0;
 }
 .block_title {
@@ -45,4 +49,16 @@
 .likes-img {
   margin-bottom: 60px;
   margin-top: 105px;
+}
+.footer {
+  display: flex;
+  max-width: 1440px;
+  margin: 0 auto;
+  height: 630px;
+  padding: 200px 16px 0;
+  background-color: #10367C;
+  color: #ffff;
+}
+.about {
+
 }
