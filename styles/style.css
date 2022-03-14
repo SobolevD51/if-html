@@ -1,5 +1,5 @@
 * {
-  margin:0;
+  margin: 0;
   box-sizing: border-box;
 }
 .body {
@@ -23,7 +23,7 @@ a {
 .stroke {
 }
 .row {
-  font-family: "Roboto Regular", sans-serif;
+  font-family: Roboto Regular, sans-serif;
   font-size: 24px;
   display: flex;
   gap: 16px;
@@ -31,12 +31,11 @@ a {
 .col {
   width: 25%;
   text-align: center;
-
 }
 .sup-img {
   margin-bottom: 52px;
   margin-top: 105px;
- }
+}
 .commun-img {
   margin-bottom: 58px;
   margin-top: 105px;
@@ -55,10 +54,36 @@ a {
   max-width: 1440px;
   margin: 0 auto;
   height: 630px;
-  padding: 200px 16px 0;
-  background-color: #10367C;
+  padding: 0 16px 0;
+  background-color: #10367c;
   color: #ffff;
 }
+.item {
+  width: 33.3333%;
+  text-align: left;
+}
 .about {
-
+  margin: 120px 104px 0 104px;
+}
+.property {
+  margin: 120px 0 0 0;
+}
+.support {
+  margin: 120px 104px 0 104px;
+}
+.text-title {
+  margin: 24px 0 24px 0;
+  font-size: 20px;
+  font-family: "Roboto 500", sans-serif;
+}
+.text {
+  font-family: "Roboto 400", sans-serif;
+  margin: 24px 0 24px 0;
+  font-size: 20px;
+}
+.terms {
+  margin: 24px 0 163px 0;
+}
+.rights {
+  font-size: 14px;
 }
