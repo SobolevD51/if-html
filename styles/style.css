@@ -20,7 +20,13 @@ a {
   font-size: 40px;
   text-align: center;
 }
-.stroke {
+hr {
+  display: inline-flex;
+  color: #FFFF00FF;
+  height: 4px;
+  background-color: #FFFF00FF;
+  border: none;
+  width: 200px;
 }
 .row {
   font-family: Roboto Regular, sans-serif;
@@ -32,30 +38,25 @@ a {
   width: 25%;
   text-align: center;
 }
-.sup-img {
-  margin-bottom: 52px;
-  margin-top: 105px;
-}
-.commun-img {
-  margin-bottom: 58px;
-  margin-top: 105px;
-}
-
-.book-img {
-  margin-bottom: 72px;
-  margin-top: 105px;
-}
-.likes-img {
+.offers-icons {
+  width: 25%;
   margin-bottom: 60px;
   margin-top: 105px;
 }
+.book {
+  margin-bottom: 90px;
+}
+.wrapper {
+  background-color: #10367c;
+  background-size: 100%;
+}
+
 .footer {
   display: flex;
   max-width: 1440px;
   margin: 0 auto;
   height: 630px;
   padding: 0 16px 0;
-  background-color: #10367c;
   color: #ffff;
 }
 .item {
@@ -63,17 +64,17 @@ a {
   text-align: left;
 }
 .about {
-  margin: 120px 104px 0 104px;
+  padding: 120px 104px 0 104px;
 }
 .property {
-  margin: 120px 0 0 0;
+  padding: 120px 0 0 120px;
 }
 .support {
-  margin: 120px 104px 0 104px;
+  padding: 120px 90px 0 104px;
 }
 .text-title {
-  margin: 24px 0 24px 0;
-  font-size: 20px;
+  padding: 24px 0 24px 0;
+  font-size: 24px;
   font-family: "Roboto 500", sans-serif;
 }
 .text {
@@ -86,4 +87,7 @@ a {
 }
 .rights {
   font-size: 14px;
+}
+li {
+  list-style-type: none;
 }
