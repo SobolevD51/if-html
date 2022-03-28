@@ -10,74 +10,80 @@ a {
   color: #ffff;
   text-decoration: none;
 }
+.offer {
+  color: #383838;
+}
 .container {
+  display: flex;
   max-width: 1440px;
   margin: 0 auto;
-  height: 700px;
-  padding: 200px 16px 0;
+  padding: 120px 0 16px 0;
 }
 .block_title {
-  font-size: 40px;
+  padding: 120px 367px 20px 367px;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 47px;
+  font-size: 25px;
   text-align: center;
 }
 hr {
   display: inline-flex;
-  color: #FFFF00FF;
   height: 4px;
-  background-color: #FFFF00FF;
+  background-color: #F5BD41;
   border: none;
-  width: 200px;
+  width: 100px;
 }
 .row {
   font-family: Roboto Regular, sans-serif;
-  font-size: 24px;
   display: flex;
-  gap: 16px;
+  margin: 45px 104px 114px 104px;
+  text-align: center;
+  align-content: center;
 }
 .col {
   width: 25%;
   text-align: center;
 }
-.offers-icons {
-  width: 25%;
-  margin-bottom: 60px;
-  margin-top: 105px;
+.icon {
+  width: 100px;
+  height: 100px;
+  margin: 80px 100px 48px 100px;
 }
+/*.offers-icons {*/
+/*  width: 25%;*/
+/*  margin-bottom: 60px;*/
+/*  margin-top: 105px;*/
+/*}*/
 .book {
   margin-bottom: 90px;
 }
-.wrapper {
+.footer {
   background-color: #10367c;
   background-size: 100%;
-}
-
-.footer {
-  display: flex;
-  max-width: 1440px;
-  margin: 0 auto;
-  height: 630px;
-  padding: 0 16px 0;
-  color: #ffff;
+  color: #fff;
 }
 .item {
   width: 33.3333%;
   text-align: left;
 }
 .about {
-  padding: 120px 104px 0 104px;
+  padding: 0 104px 0 104px;
 }
 .property {
-  padding: 120px 0 0 120px;
+  padding: 0 0 0 120px;
 }
 .support {
-  padding: 120px 90px 0 104px;
+  padding: 0 90px 0 104px;
 }
 .text-title {
   padding: 24px 0 24px 0;
   font-size: 24px;
   font-family: "Roboto 500", sans-serif;
+  color: #fff;
 }
-.text {
+.link {
   font-family: "Roboto 400", sans-serif;
   margin: 24px 0 24px 0;
   font-size: 20px;
