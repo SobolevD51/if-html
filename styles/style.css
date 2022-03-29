@@ -1,73 +1,135 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
 .body {
-  position: absolute;
-  width: 1440px;
-  height: 569px;
-  left: 0;
-  top: 900px;
-  background-color: #ffffff;
+  font-family: Roboto, sans-serif;
   color: #383838;
 }
-.h1 {
-  position: absolute;
-  width: 306px;
-  height: 47px;
-  left: 567px;
-  top: 120px;
+a {
+  color: #ffff;
+  text-decoration: none;
 }
-.stroke {
-  position: static;
-  left: 630px;
-  top: 187px;
-  display: none;
+.top-section {
+  display: flex;
+  background-image: url("https://sun9-55.userapi.com/impg/zwTxYO_ZY4TXnibBpYg9wOO4MsZHcn8OqLF8Sw/h3eMMvgEbME.jpg?size=1280x1069&quality=96&sign=aab83710b13d91bc8399bb2f76385f88&type=album");
+  background-color: #10367cff;
+  background-size: cover;
+  width: border-box;
+  height: 900px;
+  color: #fff;
 }
-.h1:hover .stroke{
-  display: block;
+.header {
+  margin: 51px 79px 1px 79px;
+  width: 1232px;
+  height: 46px;
 }
-.support {
-  position: absolute;
-  width: 141px;
-  height: 28px;
-  left: 181px;
-  top: 419px;
+.stays {
+  display: inline-block;
+  padding-left: 684px;
+  vertical-align: top;
+  padding-top: 12px;
 }
-.vector3 {
-  position: absolute;
-  left: 214px;
-  top: 275px;
+.attraction {
+  display: inline-block;
+  padding-left: 24px;
+  vertical-align: top;
+  padding-top: 12px;
 }
-.communication {
-  position: absolute;
-  width: 296px;
-  height: 28px;
-  left: 416px;
-  top: 419px;
+.moon {
+  display: inline-block;
+  padding-left: 48px;
+  vertical-align: top;
+  padding-top: 5px;
 }
-.vector2 {
-  position: absolute;
-  left: 521px;
-  top: 279px;
+.account {
+  display: inline-block;
+  padding-left: 24px;
+  vertical-align: top;
+}
+.offer {
+  color: #383838;
+}
+.container {
+  display: flex;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 120px 0 16px 0;
+}
+.block_title {
+  padding: 120px 540px 0 540px;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  text-align: center;
+}
+.offer-text {
+  border-bottom: #F5BD41;
+  border-bottom-style: solid;
+  border-bottom-width: 4px;
+  padding: 5px;
+}
+.row {
+  font-family: Roboto Regular, sans-serif;
+  display: flex;
+  margin: 20px 104px 114px 104px;
+  text-align: center;
+  align-content: center;
+}
+.col {
+  width: 25%;
+  text-align: center;
+}
+.icon {
+  width: 160px;
+  height: 100px;
+  margin: 80px 100px 48px 65px;
+}
+.img-icon {
+  width: 90px;
+  height: 84px;
+}
+.caption {
+  padding-top: 45px;
 }
 .book {
-  position: absolute;
-  width: 168px;
-  height: 28px;
-  left: 792px;
-  top: 419px;
+  margin-bottom: 90px;
 }
-.vector {
-  position: absolute;
-  left: 826px;
-  top: 287px;
+.footer {
+  background-color: #10367c;
+  background-size: 100%;
+  color: #fff;
 }
-.reviews {
-  position: absolute;
-  width: 225px;
-  height: 28px;
-  left: 1076px;
-  top: 419px;
+.item {
+  width: 33%;
+  text-align: left;
 }
-.vector1 {
-  position: absolute;
-  left: 1142px;
-  top: 275px;
+.about {
+  padding: 0 104px 0 104px;
+}
+.property {
+  padding: 0 0 0 120px;
+}
+.support {
+  padding: 0 90px 0 104px;
+}
+.text-title {
+  padding: 24px 0 24px 0;
+  font-size: 24px;
+  font-family: "Roboto 500", sans-serif;
+  color: #fff;
+}
+.link {
+  font-family: "Roboto 400", sans-serif;
+  margin: 24px 0 24px 0;
+  font-size: 20px;
+}
+.terms {
+  margin: 24px 0 163px 0;
+}
+.rights {
+  font-size: 14px;
+}
+li {
+  list-style-type: none;
 }
