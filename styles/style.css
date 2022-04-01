@@ -1,8 +1,6 @@
 * {
   margin: 0;
   box-sizing: border-box;
-}
-.body {
   font-family: Roboto, sans-serif;
   color: #383838;
 }
@@ -129,6 +127,7 @@ a {
 }
 .rights {
   font-size: 14px;
+  color: #fff;
 }
 li {
   list-style-type: none;
