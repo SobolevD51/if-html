@@ -1,3 +1,4 @@
+@import "fonts.css";
 * {
   margin: 0;
   box-sizing: border-box;
@@ -12,7 +13,8 @@ a {
   background-image: url(/img/bgimg.png);
   background-color: #10367cff;
   background-size: cover;
-  width: border-box;
+  margin: auto;
+  width: 1440px;
   height: 900px;
 }
 .header {
@@ -65,7 +67,7 @@ a {
   vertical-align: top;
 }
 .tagline {
-  position: absolute;
+  padding-top: 200px;
   width: 542px;
   height: 118px;
   left: 104px;
