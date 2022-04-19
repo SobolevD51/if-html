@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/style.css" />
     <link rel="stylesheet" href="styles/fonts.css" />
     <title>Title</title>
@@ -26,7 +27,8 @@
                     <img src="./img/AccountCircle.svg" alt="Person icon">
                 </a>
             </div>
-            <div class="tagline">
+        </div>
+        <div class="tagline">
                 <span class="tagline-content">Discover stays </span>
                 <br/>
                 <span class="tagline-content">to live, work or just relax</span>
@@ -35,14 +37,24 @@
             <div class="search">
                 <div>
                     <label>
-                        <input type="text" name="destination" id="destination">
+                        <input placeholder="New York" type="text" name="destination" id="destination">
                     </label>
                 </div>
-                <div></div>
-                <div></div>
-                <div></div>
+                <div>
+                    <label>
+                        <input type="date" name="date" id="date">
+                    </label>
+                </div>
+                <div>
+                    <label>
+                        <input placeholder="2 Adults - 1 Children - 1 Room" id="info_guests">
+                    </label>
+                </div>
+                <div>
+                    <button type="submit" class="search-button">Search</button>
+                </div>
             </div>
-        </div>
+
     </div>
     <div class="offer">
       <div class="block_title">

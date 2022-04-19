@@ -16,17 +16,20 @@ a {
   margin: auto;
   width: 1440px;
   height: 900px;
+    flex-direction: column;
 }
 .header {
   margin: 51px 79px 1px 79px;
   width: 1232px;
   height: 46px;
+    justify-content: space-between;
 }
 .stays {
   display: inline-block;
   padding-left: 684px;
   vertical-align: top;
   padding-top: 12px;
+    justify-content: flex-end;
 }
 .header-link {
   color: #fff;
@@ -36,7 +39,7 @@ a {
   content: '';
   margin-top: 5px;
   width: 40px;
-  height: 1px;
+  height: 2px;
   background-color: #F5BD41;
   position: absolute;
 }
@@ -51,7 +54,7 @@ a {
   content: '';
   margin-top: 5px;
   width: 70px;
-  height: 1px;
+  height: 2px;
   background-color: #F5BD41;
   position: absolute;
 }
@@ -72,11 +75,6 @@ a {
 .tagline {
   padding-top: 200px;
   padding-bottom: 100px;
-  width: 542px;
-  left: 104px;
-  top: 293px;
-  font-family: Roboto sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 50px;
   line-height: 59px;
@@ -87,11 +85,13 @@ a {
   height: 120px;
 }
 .search {
-  background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
 }
 input#destination {
   height: 64px;
-  width: 40%;
+  width: auto;
   border-color: #fff;
   border-radius: 10px;
   font-size: 18px;
@@ -99,6 +99,28 @@ input#destination {
 }
 input#destination:focus {
   border-color: #F5BD41;
+}
+input#date {
+    height: 64px;
+    width: auto;
+    border-color: #fff;
+    border-radius: 10px;
+    font-size: 18px;
+}
+input#info_guests {
+    height: 64px;
+    width: border-box;
+    border-color: #fff;
+    border-radius: 10px;
+    font-size: 18px;
+}
+.search-button {
+    height: 64px;
+    width: auto;
+    background: #3077C6;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #fff;
 }
 .cityAndHotel {
   color: #fff;
@@ -149,6 +171,7 @@ input#destination:focus {
     align-items: center;
     justify-content: space-around;
     flex: 1 200px;
+    margin-bottom: 40px;
 }
 .book {
   margin-bottom: 90px;
