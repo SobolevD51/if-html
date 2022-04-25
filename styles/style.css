@@ -151,6 +151,7 @@ input#info-guests {
   width: 100%;
   background: #3077c6;
   border-radius: 10px;
+  border: #3077c6;
   font-size: 18px;
   color: #fff;
 }
