@@ -1,0 +1,253 @@
+@import "fonts.css";
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+  color: #383838;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 54px 104px 120px;
+}
+.top-section {
+  background-image: url(/img/bgimg.png);
+  background-color: #10367cff;
+  background-size: cover;
+  flex-direction: column;
+  margin: auto;
+}
+.header {
+  display: flex;
+  height: 46px;
+  justify-content: space-between;
+}
+.logo-header {
+}
+.header-links {
+  display: flex;
+  justify-content: flex-end;
+}
+.stays {
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 12px;
+  justify-content: flex-end;
+}
+.header-link {
+  color: #fff;
+}
+.stays:hover:after {
+  display: block;
+  content: "";
+  margin-top: 5px;
+  width: 40px;
+  height: 2px;
+  background-color: #f5bd41;
+  position: absolute;
+}
+.attraction {
+  display: inline-block;
+  padding-left: 24px;
+  vertical-align: top;
+  padding-top: 12px;
+}
+.attraction:hover:after {
+  display: block;
+  content: "";
+  margin-top: 5px;
+  width: 70px;
+  height: 2px;
+  background-color: #f5bd41;
+  position: absolute;
+}
+.moon {
+  display: inline-block;
+  padding-left: 48px;
+  vertical-align: top;
+  padding-top: 5px;
+}
+.imgMoon:hover {
+  background-color: #f5bd41;
+}
+.account {
+  display: inline-block;
+  padding-left: 24px;
+  vertical-align: top;
+}
+.tagline {
+  padding-top: 200px;
+  padding-bottom: 100px;
+}
+.tagline-content {
+  color: #fff;
+  text-align: left;
+  height: 120px;
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 59px;
+}
+.search {
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-between;
+}
+.destination {
+  position: relative;
+  width: 40%;
+}
+.label-destination {
+  position: absolute;
+  bottom: 75px;
+  color: #fff;
+  padding-left: 24px;
+}
+input#destination {
+  height: 64px;
+  width: 100%;
+  border: #fff;
+  border-radius: 10px;
+  font-size: 18px;
+  padding-left: 24px;
+}
+.date {
+  position: relative;
+  width: 20%;
+}
+.label-date {
+  position: absolute;
+  bottom: 75px;
+  color: #fff;
+  padding-left: 24px;
+}
+input#date {
+  height: 64px;
+  width: 100%;
+  border-color: #f5bd41;
+  border-radius: 10px;
+  font-size: 18px;
+}
+.guest-info {
+  width: 25%;
+}
+input#info-guests {
+  height: 64px;
+  width: 100%;
+  border: #fff;
+  border-radius: 10px;
+  font-size: 18px;
+}
+.search-button-div {
+  width: 15%;
+}
+.search-button {
+  height: 64px;
+  width: 100%;
+  background: #3077c6;
+  border-radius: 10px;
+  border: #3077c6;
+  font-size: 18px;
+  color: #fff;
+}
+.city-and-hotel {
+  color: #fff;
+  font-size: 18px;
+  padding-left: 24px;
+}
+.apps {
+  display: flex;
+  justify-content: center;
+  padding-top: 120px;
+}
+.google-play {
+  padding-right: 17px;
+}
+.offer {
+  color: #383838;
+}
+.block_title {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-size: 28px;
+  font-weight: 500;
+  text-align: center;
+  position: relative;
+}
+.block_title_content {
+  display: inline-block;
+}
+.block_title_content:after {
+  position: relative;
+  content: "";
+  width: 110px;
+  height: 4px;
+  background-color: #f5bd41;
+  display: block;
+  left: 110px;
+  top: 20px;
+}
+.row {
+  font-family: Roboto Regular, sans-serif;
+  display: flex;
+  margin: 0 auto;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+}
+.col {
+  width: 25%;
+  text-align: center;
+}
+.icon {
+  margin-top: 90px;
+  height: 100px;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 40px;
+}
+.book {
+  margin-bottom: 90px;
+}
+.footer {
+  background-color: #10367c;
+  background-size: 100%;
+  color: #fff;
+}
+.footer-content {
+  display: flex;
+  flex-direction: row;
+}
+.footer-links {
+  color: #fff;
+}
+.item {
+  width: 33%;
+  text-align: left;
+}
+.text-title {
+  padding: 24px 0 24px 0;
+  font-size: 24px;
+  font-family: "Roboto 500", sans-serif;
+  color: #fff;
+}
+.link {
+  font-family: "Roboto 400", sans-serif;
+  margin: 24px 0 24px 0;
+  font-size: 20px;
+}
+.terms {
+  margin: 24px 0 163px 0;
+}
+.rights {
+  font-size: 14px;
+  color: #fff;
+}
+li {
+  list-style-type: none;
+}

@@ -1,181 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="description" content="My first project for IF IT-school" />
-    <meta
-      name="keywords"
-      content="study, IT-technologies, HTML, CSS< JavaScript, React"
-    />
-    <meta name="author" content="Daniil Sobolev" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Lesson3</title>
-  </head>
-  <body>
-    <h1>Знакомство с Web.</h1>
-    <img
-      src="https://developers.google.com/web/fundamentals/design-and-ux/responsive/img/html5.png"
-      alt="html5 logo"
-    />
-    <ol>
-      <li>
-        Знакомство с Web.
-        <ul>
-          <li>Краткая история Web и что такое интернет.</li>
-          <li>Как устроен браузер и как он получает страницы по сети.</li>
-          <li>Что такое Git?</li>
-          <li>Создание первого репозитория.</li>
-          <li>О файле .gitignore.</li>
-        </ul>
-      </li>
-      <li>
-        HTML-верстка - первые шаги.
-        <ul>
-          <li>Настройка рабочей среды.</li>
-          <li>Что такое HTML.</li>
-          <li>Какие бывают теги и что такое атрибут.</li>
-          <li>Теги для работы с текстом.</li>
-          <li>Создание собственной страницы.</li>
-        </ul>
-      </li>
-      <li>
-        Погружение в HTML-размтеку.
-        <ul>
-          <li>Мета-теги.</li>
-          <li>Мнемоники.</li>
-          <li>Тег для работы с изображениями.</li>
-          <li>Теги для работы со списками.</li>
-          <li>Теги для работы с таблицами.</li>
-          <li>Теги для работы с формами.</li>
-          <li>Div-блоки.</li>
-        </ul>
-      </li>
-    </ol>
-    <table border="1" width="50%">
-      <thead>
-        <tr>
-          <th>Tag</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>&lt;table&gt;</td>
-          <td>defines a table</td>
-        </tr>
-        <tr>
-          <td>&lt;tr&gt;</td>
-          <td>defines a row in a table</td>
-        </tr>
-        <tr>
-          <td>&lt;th&gt;</td>
-          <td rowspan="2">defines a "header cell"/"cell" in a table</td>
-        </tr>
-        <tr>
-          <td>&lt;td&gt;</td>
-        </tr>
-        <tr>
-          <td colspan="2">Rarely used</td>
-        </tr>
-        <tr>
-          <td>&lt;caption&gt;</td>
-          <td>defines a table caption</td>
-        </tr>
-        <tr>
-          <td>&lt;thead&gt;</td>
-          <td>Groups the header content in a table</td>
-        </tr>
-        <tr>
-          <td>&lt;tbody&gt;</td>
-          <td>Groups the body content in a table</td>
-        </tr>
-        <tr>
-          <td>&lt;tfoot&gt;</td>
-          <td>Group the footer content in a table</td>
-        </tr>
-      </tbody>
-    </table>
-    <h2>My first form</h2>
-    <form action="/" method="get">
-      <fieldset>
-        <legend>My first form</legend>
-        <div>
-          <label for="name">Name</label><br />
-          <input id="name" type="text" name="name" placeholder="Name" required />
-        </div>
-        <div>
-          <label for="email">Email</label><br />
-          <input
-            id="email"
-            type="email"
-            name="email"
-            placeholder="YourEmail@mail.com"
-            required
-          />
-        </div>
-        <div>
-          <label for="pass">Password</label><br />
-          <input
-            id="pass"
-            type="password"
-            name="password"
-            placeholder="Your password"
-            required
-          />
-        </div>
-        <div>
-          <label for="programmingLevel">Your programming level</label><br />
-          <input
-            id="programmingLevel"
-            type="range"
-            name="Programming level"
-            min="0"
-            max="10"
-          />
-        </div>
-        <div>
-          <label>What does HTML stand for?</label><br />
-          <input id="q-1" type="checkbox" name="q-HTML" value="1" />
-          <label for="q-1">Hyperlinks and Text Markup Language</label><br />
-          <input id="q-2" type="checkbox" name="q-HTML" value="2" />
-          <label for="q-2">Home Tool Markup Language</label><br />
-          <input id="q-3" type="checkbox" name="q-HTML" value="3" />
-          <label for="q-3">Hyper Text Markup Language</label><br />
-        </div>
-        <div>
-          <label>What does HTTP stand for?</label><br />
-          <input id="q-4" type="radio" name="q-HTTP" value="1" />
-          <label for="q-4">Hyper Text Translate Protocol</label><br />
-          <input id="q-5" type="radio" name="q-HTTP" value="2" />
-          <label for="q-5">Hyper Text Transmission Protocol</label><br />
-          <input id="q-6" type="radio" name="q-HTTP" value="3" />
-          <label for="q-6">Hyper Text Transfer Protocol</label><br />
-        </div>
-        <div>
-          <label for="comment">Comment</label><br />
-          <textarea
-              name="comment"
-              id="comment"
-              placeholder="Your comment"
-              cols="30"
-              rows="10"
-              maxlength="500"
-          ></textarea>
-        </div>
-        <div>
-          <label for="HTML">What does HTML for?</label><br />
-          <select name="HTMLfor" id="HTML">
-            <option disabled selected>Your answer</option>
-            <option value="1">Hyperlinks and Text Markup Language</option>
-            <option value="2">Home Tool Markup Language</option>
-            <option value="3">Hyper Text Markup Language</option>
-          </select>
-        </div>
-      </fieldset>
-      <div>
-        <button>Send</button>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles/style.css" />
+  <link rel="stylesheet" href="styles/fonts.css" />
+  <title>Title</title>
+</head>
+<body>
+<div class="top-section">
+  <div class="container">
+    <div class="header">
+      <div class="logo-header">
+        <img src="./img/logo_header.svg" alt="TripHouse" />
       </div>
-    </form>
-    <hr />
-  </body>
+      <div class="header-links">
+        <div class="stays">
+          <a href="" class="header-link">Stays</a>
+        </div>
+        <div class="attraction">
+          <a href="" class="header-link">Attraction</a>
+        </div>
+        <div class="moon">
+          <a href="">
+            <img src="./img/Night.svg" alt="Moon" />
+          </a>
+        </div>
+        <div class="account">
+          <a href="">
+            <img src="./img/AccountCircle.svg" alt="Person icon" />
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="tagline">
+      <h1 class="tagline-content">
+        Discover stays <br />
+        to live, work or just relax
+      </h1>
+    </div>
+    <div class="search">
+      <div class="destination">
+        <label class="label-destination" for="destination"
+        >Your destination or hotel name</label
+        >
+        <input
+          placeholder="New York"
+          type="text"
+          name="destination"
+          id="destination"
+        />
+      </div>
+      <div class="date">
+        <label class="label-date" for="date">Check-in — Check-out</label>
+        <input type="date" name="date" id="date" />
+      </div>
+      <div class="guest-info">
+        <label for="info-guests"></label>
+        <input
+          placeholder="2 Adults - 1 Children - 1 Room"
+          id="info-guests"
+        />
+      </div>
+      <div class="search-button-div">
+        <button type="submit" class="search-button">Search</button>
+      </div>
+    </div>
+    <div class="apps">
+      <a href="https://play.google.com/store?hl=ru">
+        <img class="google-play" src="./img/google-play-badge.svg" alt="google play">
+      </a>
+      <a href="https://www.apple.com/ru/app-store/">
+        <img src="./img/App_Store_Badge.svg" alt="app store">
+      </a>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="offer">
+    <div class="block_title">
+      <h2 class="block_title_content">What do we offer</h2>
+    </div>
+    <div class="row">
+      <div class="col">
+        <div class="icon">
+          <img class="img-icon" src="img/headset.svg" alt="headset" />
+        </div>
+        <a href="" class="caption">Support 24/7</a>
+      </div>
+      <div class="col">
+        <div class="icon">
+          <img class="img-icon" src="img/message.svg" alt="messages" />
+        </div>
+        <a href="" class="caption">Communicate directly</a>
+      </div>
+      <div class="col">
+        <div class="icon">
+          <img class="img-icon" src="img/computer.svg" alt="computer" />
+        </div>
+        <a href="" class="caption">Book online</a>
+      </div>
+      <div class="col">
+        <div class="icon">
+          <img class="img-icon" src="img/like.svg" alt="likes" />
+        </div>
+        <a href="" class="caption">Real guest reviews</a>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="footer">
+  <div class="container">
+    <div class="footer-content">
+      <div class="item about">
+        <ul>
+          <li class="text-title">About</li>
+          <li class="link">
+            <a href="" class="footer-links">How Triphouse works</a>
+          </li>
+          <li class="link"><a href="" class="footer-links">Careers</a></li>
+          <li class="link"><a href="" class="footer-links">Privacy</a></li>
+          <li class="link terms">
+            <a href="" class="footer-links">Terms</a>
+          </li>
+          <!--              <li class="link rights">-->
+          <!--                © 2020 Triphouse, Inc. All rights reserved-->
+          <!--              </li>-->
+        </ul>
+      </div>
+      <div class="item property">
+        <ul>
+          <li class="text-title">Property</li>
+          <li class="link">
+            <a href="" class="footer-links">Guest houses</a>
+          </li>
+          <li class="link"><a href="" class="footer-links">Hotels</a></li>
+          <li class="link">
+            <a href="" class="footer-links">Apartments</a>
+          </li>
+          <li class="link"><a href="" class="footer-links">Villas</a></li>
+          <li class="link">
+            <a href="" class="footer-links">Holiday homes</a>
+          </li>
+          <li class="link"><a href="" class="footer-links">Hostels</a></li>
+        </ul>
+      </div>
+      <div class="item support">
+        <ul>
+          <li class="text-title">Support</li>
+          <li class="link">
+            <a href="" class="footer-links">Contact Customer Service</a>
+          </li>
+          <li class="link"><a href="" class="footer-links">FAQ</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="rights">© 2020 Triphouse, Inc. All rights reserved</div>
+  </div>
+</div>
+</body>
 </html>
