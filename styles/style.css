@@ -160,6 +160,14 @@ input#info-guests {
   font-size: 18px;
   padding-left: 24px;
 }
+.apps {
+  display: flex;
+  justify-content: center;
+  padding-top: 120px;
+}
+.google-play {
+  padding-right: 17px;
+}
 .offer {
   color: #383838;
 }
