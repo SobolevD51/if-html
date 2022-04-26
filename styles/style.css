@@ -13,9 +13,18 @@ a {
   margin: 0 auto;
   padding: 54px 104px 120px;
 }
+:root {
+  --main-background-color: #10367cff;
+}
+:root {
+  --main-border: #fff;
+}
+:root {
+  --main-color: #fff;
+}
 .top-section {
   background-image: url(/img/bgimg.png);
-  background-color: #10367cff;
+  background-color: var(--main-background-color);
   background-size: cover;
   flex-direction: column;
   margin: auto;
@@ -38,7 +47,7 @@ a {
   justify-content: flex-end;
 }
 .header-link {
-  color: #fff;
+  color: var(--main-color);
 }
 .stays:hover:after {
   display: block;
@@ -83,7 +92,7 @@ a {
   padding-bottom: 100px;
 }
 .tagline-content {
-  color: #fff;
+  color: var(--main-color);
   text-align: left;
   height: 120px;
   font-size: 50px;
@@ -105,13 +114,14 @@ a {
 .label-destination {
   position: absolute;
   bottom: 75px;
-  color: #fff;
+  color: var(--main-color);
   padding-left: 24px;
 }
+
 input#destination {
   height: 64px;
   width: 100%;
-  border: #fff;
+  border: var(--main-border);
   border-radius: 10px;
   font-size: 18px;
   padding-left: 24px;
@@ -123,7 +133,7 @@ input#destination {
 .label-date {
   position: absolute;
   bottom: 75px;
-  color: #fff;
+  color: var(--main-color);
   padding-left: 24px;
 }
 input#date {
@@ -139,7 +149,7 @@ input#date {
 input#info-guests {
   height: 64px;
   width: 100%;
-  border: #fff;
+  border: var(--main-border);
   border-radius: 10px;
   font-size: 18px;
 }
@@ -153,10 +163,10 @@ input#info-guests {
   border-radius: 10px;
   border: #3077c6;
   font-size: 18px;
-  color: #fff;
+  color: var(--main-color);
 }
 .city-and-hotel {
-  color: #fff;
+  color: var(--main-color);
   font-size: 18px;
   padding-left: 24px;
 }
@@ -217,14 +227,14 @@ input#info-guests {
 .footer {
   background-color: #10367c;
   background-size: 100%;
-  color: #fff;
+  color: var(--main-color);
 }
 .footer-content {
   display: flex;
   flex-direction: row;
 }
 .footer-links {
-  color: #fff;
+  color: var(--main-color);
 }
 .item {
   width: 33%;
@@ -234,7 +244,7 @@ input#info-guests {
   padding: 24px 0 24px 0;
   font-size: 24px;
   font-family: "Roboto 500", sans-serif;
-  color: #fff;
+  color: var(--main-color);
 }
 .link {
   font-family: "Roboto 400", sans-serif;
@@ -246,7 +256,7 @@ input#info-guests {
 }
 .rights {
   font-size: 14px;
-  color: #fff;
+  color: var(--main-color);
 }
 li {
   list-style-type: none;
