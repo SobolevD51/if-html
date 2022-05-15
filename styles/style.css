@@ -238,7 +238,7 @@ input#info-guests {
   background-size: 100%;
   color: var(--main-color);
 }
-.logo-footer, .logo-footer-lg-3, .logo-footer-md-6, .logo-footer-xs-12 {
+.logo-footer {
   display: none;
 }
 .footer-content {
@@ -278,6 +278,13 @@ li {
   list-style-type: none;
 }
 @media all and (max-width: 700px) {
+  .row {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .col {
+    width: 100%;
+  }
   .link {
     display: none;
   }
@@ -296,7 +303,7 @@ li {
   ul {
     padding-inline-start: 0;
   }
-  .logo-footer, .logo-footer-lg-3, .logo-footer-md-6, .logo-footer-xs-12 {
+  .logo-footer {
     display: flex;
     justify-content: center;
   }
@@ -313,6 +320,6 @@ li {
   }
   .rights {
     display: flex;
-    justify-content: center;
+    text-align: center;
   }
 }
