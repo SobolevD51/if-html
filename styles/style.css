@@ -24,6 +24,7 @@ a {
 }
 .col-3 {
   width: 25%;
+  height: 100%;
 }
 .col-4 {
   width: 33.33%;
@@ -275,7 +276,6 @@ input#info-guests {
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  height: 175px;
 }
 .icon {
   height: 87px;
@@ -302,10 +302,6 @@ input#info-guests {
   color: #3077C6;
   font-size: 24px;
   margin: 24px 0;
-}
-.cards {
-  display: flex;
-  justify-content: space-between;
 }
 .footer {
   background-color: #10367c;
@@ -426,6 +422,9 @@ li {
   .homes-links {
     font-size: 12px;
     margin: 12px 0;
+  }
+  .col-3 {
+    width: 50%;
   }
 }
 @media all and (max-width: 500px) {
