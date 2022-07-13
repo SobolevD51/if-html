@@ -247,14 +247,15 @@ input#info-guests {
   display: inline-block;
 }
 .block_title_content:after {
-  position: relative;
+  position: absolute;
   content: "";
   width: 35%;
   height: 4px;
   background-color: #f5bd41;
   display: block;
   margin: 0 auto;
-  top: 20px;
+  top: 65px;
+  left: 100px;
 }
 
 .caption {
@@ -284,7 +285,7 @@ input#info-guests {
 .book {
   margin-bottom: 90px;
 }
-.homes_guests_loves{
+.homes-guests-loves{
 
 }
 .apartments {
@@ -346,18 +347,18 @@ input#info-guests {
 li {
   list-style-type: none;
 }
-@media all and (max-width: 1200px) {
-  .homes-links {
-    font-size: 20px;
-    margin: 20px 0;
-  }
-}
-@media all and (max-width: 900px){
-    .homes-links {
-      font-size: 18px;
-      margin: 18px 0;
-    }
-}
+/*@media all and (max-width: 1200px) {*/
+/*  .homes-links {*/
+/*    font-size: 20px;*/
+/*    margin: 20px 0;*/
+/*  }*/
+/*}*/
+/*@media all and (max-width: 900px){*/
+/*    .homes-links {*/
+/*      font-size: 18px;*/
+/*      margin: 18px 0;*/
+/*    }*/
+/*}*/
 @media all and (max-width: 700px) {
   .row {
     flex-direction: column;
@@ -423,16 +424,19 @@ li {
     font-size: 12px;
     margin: 12px 0;
   }
+  .homes-icon {
+    width: 50%;
+  }
   .col-3 {
     width: 50%;
   }
 }
-@media all and (max-width: 500px) {
-  .homes-links {
-    font-size: 5px;
-    margin: 6px 0;
-  }
-}
+/*@media all and (max-width: 500px) {*/
+/*  .homes-links {*/
+/*    font-size: 5px;*/
+/*    margin: 6px 0;*/
+/*  }*/
+/*}*/
 @media all and (max-width: 300px) {
   .footer-content {
     flex-direction: column;
