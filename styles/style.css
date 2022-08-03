@@ -5,8 +5,8 @@
   font-family: Roboto, sans-serif;
   color: #383838;
 }
-h2 {
-  font-size: 1em;
+.h2 {
+  font-size: 40px;
 }
 a {
   text-decoration: none;
@@ -23,9 +23,8 @@ a {
   width: 16.66%;
 }
 .col-3 {
-  width: 295px;
-  height: 100%;
-}
+  width: 25%;
+  }
 .col-4 {
   width: 33.33%;
 }
@@ -286,24 +285,23 @@ input#info-guests {
 .book {
   margin-bottom: 90px;
 }
-.homes-guests-loves{
-
-}
 .apartments {
+  position: relative;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   padding-top: 105px;
 }
+
 .homes-icon {
-  height: 295px;
-  width: 295px;
-  margin-top: 10px;
+  width: 100%;
 }
 .arrow {
   position: absolute;
-  height: 40px;
   width: 40px;
+  height: 40px;
+  top: 40%;
+  right: -3%;
 }
 .homes-links {
   position: relative;
@@ -425,18 +423,26 @@ li {
   .location {
     font-size: 12px;
   }
+  .third-col {
+    display: none;
+  }
+  .fourth-col {
+    display: none;
+  }
   .apartments {
     display: flex;
     flex-wrap: wrap;
     padding-top: 30px;
   }
   .homes-icon {
-    height: 156px;
-    width: 156px;
-
+    width: 100%;
+  }
+  .arrow {
+    width: 30px;
+    height: 30px;
   }
   .col-3 {
-    width: 156px;
+    width: 50%;
   }
 }
 @media all and (max-width: 300px) {
