@@ -5,16 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/style.css" />
     <link rel="stylesheet" href="styles/fonts.css" />
-    <link rel="icon" href="img/sprite.svg">
+    <link rel="icon" href="img/sprite.svg" />
     <title>Title</title>
   </head>
   <body>
-    <div class="top-section">
+    <header class="top-section">
       <div class="top-container">
-        <div class="header">
-            <svg class="logo-header">
-              <use href="./img/sprite.svg#logo-header"/>
-            </svg>
+        <nav class="header">
+          <svg class="logo-header">
+            <use href="./img/sprite.svg#logo-header" />
+          </svg>
           <div class="header-links">
             <div class="stays">
               <a href="" class="header-link">Stays</a>
@@ -24,16 +24,16 @@
             </div>
             <a href="">
               <svg class="moon">
-                <use href="./img/sprite.svg#moon"/>
+                <use href="./img/sprite.svg#moon" />
               </svg>
             </a>
             <a href="">
-            <svg class="account">
-              <use href="./img/sprite.svg#AccountCircle"/>
-            </svg>
+              <svg class="account">
+                <use href="./img/sprite.svg#AccountCircle" />
+              </svg>
             </a>
           </div>
-        </div>
+        </nav>
         <div class="tagline">
           <h1 class="tagline-content">
             Discover stays <br />
@@ -70,48 +70,92 @@
         <div class="apps">
           <a href="https://play.google.com/store?hl=ru">
             <svg class="google-play">
-              <use href="./img/sprite.svg#google-play-badge"/>
+              <use href="./img/sprite.svg#google-play-badge" />
             </svg>
           </a>
           <a href="https://www.apple.com/ru/app-store/">
             <svg class="app-store">
-              <use href="./img/sprite.svg#AppStore"/>
+              <use href="./img/sprite.svg#AppStore" />
             </svg>
           </a>
         </div>
       </div>
-    </div>
+    </header>
     <div class="container">
       <div class="offer">
         <div class="block_title">
-          <h2 class="block_title_content">What do we offer</h2>
+          <h2 class="h2 block_title block_title_content">What do we offer</h2>
         </div>
         <div class="row">
-          <div class="icon-cont">
+          <div class="icon-cont col-3">
             <svg class="icon">
-              <use href="./img/sprite.svg#headset"/>
+              <use href="./img/sprite.svg#headset" />
             </svg>
             <a href="" class="caption">Support 24/7</a>
           </div>
-          <div class="icon-cont">
+          <div class="icon-cont col-3">
             <svg class="icon">
-              <use href="./img/sprite.svg#message"/>
+              <use href="./img/sprite.svg#message" />
             </svg>
             <a href="" class="caption">Communicate directly</a>
           </div>
-          <div class="icon-cont">
+          <div class="icon-cont col-3">
             <svg class="icon">
-              <use href="./img/sprite.svg#computer"/>
+              <use href="./img/sprite.svg#computer" />
             </svg>
             <a href="" class="caption">Book online</a>
           </div>
-          <div class="icon-cont">
+          <div class="icon-cont col-3">
             <svg class="icon">
-              <use href="./img/sprite.svg#like"/>
+              <use href="./img/sprite.svg#like" />
             </svg>
             <a href="" class="caption">Real guest reviews</a>
           </div>
         </div>
+      </div>
+    </div>
+    <div class="container">
+      <h2 class="block_title">Homes guests loves</h2>
+      <div class="apartments">
+        <div class="col-3">
+          <img
+            class="homes-icon"
+            src="/img/Hotel leopold.png"
+            alt="Hotel Leopold"
+          />
+          <a class="homes-links" href="">Hotel Leopold</a>
+          <div class="location">Saint Petersburg, Russia</div>
+        </div>
+        <div class="col-3 second-col">
+          <img
+            class="homes-icon"
+            src="/img/Apartment Sunshine.png"
+            alt="Apartment Sunshine"
+          />
+          <a class="homes-links" href="">Apartment Sunshine</a>
+          <div class="location">Santa Cruz de Tenerife, Spain</div>
+        </div>
+        <div class="col-3 third-col">
+          <img
+            class="homes-icon"
+            src="/img/Villa Kunerad.png"
+            alt="Villa Kunerad"
+          />
+          <a class="homes-links" href="">Villa Kunerad</a>
+          <div class="location">Vysokie Tatry, Slowakia</div>
+        </div>
+        <div class="col-3 fourth-col">
+          <img
+            class="homes-icon"
+            src="/img/Hostel Friendship.png"
+            alt="Hostel Friendship"
+          />
+          <a class="homes-links" href="">Hostel Friendship</a>
+          <div class="location">Berlin, Germany</div>
+        </div>
+        <svg class="arrow">
+          <use href="./img/sprite.svg#arrow" />
+        </svg>
       </div>
     </div>
     <div class="footer">
@@ -120,7 +164,7 @@
           <img src="./img/logo_footer.svg" alt="TripHouse" />
         </div>
         <div class="footer-content">
-          <div class="item">
+          <div class="item col-4">
             <ul>
               <li class="text-title">
                 <a href="" class="footer-links">About</a>
@@ -135,7 +179,7 @@
               </li>
             </ul>
           </div>
-          <div class="item">
+          <div class="item col-4">
             <ul>
               <li class="text-title">Property</li>
               <li class="link">
@@ -152,7 +196,7 @@
               <li class="link"><a href="" class="footer-links">Hostels</a></li>
             </ul>
           </div>
-          <div class="item">
+          <div class="item col-4">
             <ul>
               <li class="text-title">Support</li>
               <li class="link">
