@@ -23,7 +23,7 @@ a {
   width: 16.66%;
 }
 .col-3 {
-  width: 25%;
+  width: 24%;
   }
 .col-4 {
   width: 33.33%;
@@ -300,8 +300,8 @@ input#info-guests {
   position: absolute;
   width: 40px;
   height: 40px;
-  top: 40%;
-  right: -3%;
+  top: 47%;
+  right: -14px;
 }
 .homes-links {
   position: relative;
@@ -357,6 +357,13 @@ input#info-guests {
 }
 li {
   list-style-type: none;
+}
+@media all and (max-width: 1100px) {
+  .arrow {
+    height: 30px;
+    width: 30px;
+    top: 44%;
+  }
 }
 @media all and (max-width: 700px) {
   .row {
@@ -417,10 +424,10 @@ li {
   }
   .homes-links {
     font-size: 12px;
-    margin: 12px 0;
-    top: 10px;
+      top: 0;
   }
   .location {
+      top: 4px;
     font-size: 12px;
   }
   .third-col {
@@ -440,9 +447,17 @@ li {
   .arrow {
     width: 30px;
     height: 30px;
+    top: 32%;
   }
   .col-3 {
-    width: 50%;
+    width: 48%;
+  }
+}
+@media all and (max-width: 450px) {
+  .arrow {
+    width: 25px;
+    height: 25px;
+    top: 30%;
   }
 }
 @media all and (max-width: 300px) {
@@ -454,5 +469,23 @@ li {
   }
   .text-title {
     padding: 10px 0;
+  }
+  .block_title{
+    font-size: 15px;
+  }
+  .col-3{
+    width: 100%;
+  }
+  .second-col {
+    display: none;
+  }
+  .apartments {
+    padding-top: 10px;
+  }
+  .arrow {
+    width: 18px;
+    height: 18px;
+    top: 31%;
+    right: -10px;
   }
 }
